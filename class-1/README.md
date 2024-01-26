@@ -1,10 +1,10 @@
 ### What is Azure DevOs?
 
-* Implementing DevOps methodology with help of _azure DevOps services__ of __Azure repos__ for git remote repository management, __azure pipelines__ for CI/CD , __Azure artifact__ for __artifact's managemnt__ , __Azure test plans__ for __autimation testing__, and __Azure Boards__ for __project managment tool.__
+* Implementing DevOps methodology with help of __azure DevOps services__ of __Azure repos__ for __git remote repository management__, __azure pipelines__ for CI/CD , __Azure artifact__ for __artifact's managemnt__ , __Azure test plans__ for __autimation testing__, and __Azure Boards__ for __project managment tool.__
 
 ### Differnce between DevOps and Azure DevOps and AWS DevOps and GCP DevOps?
 
-* 
+*  The main difference between all these, usage of __tools__ change to implement _DevOps methodology__. 
 
 | tools           | DevOps | AWS DevOps | Azure DevOps | GCP DevOps |
 | :---------------- | :------ | :----   | :----------- | :---------- |
