@@ -1,18 +1,18 @@
-### in this , we are going leanr , how to create Azure DevOps account.
+### in this , we are going learn , how to create Azure DevOps account.
 
-* searc "azure DevOps 
+* search "azure DevOps in google"
  * start for free
 
- * we can use personal  __outlook__ and office (company email), personal Gmail is not supporting to create AZURE DevOps account.
+ * we can use personal  __outlook__ and office (company email), __"personal Gmail is not supporting"__ to create AZURE DevOps account.
   * in this demonstratin creating with __outlook.com__
 
 * to this URL https://azure.microsoft.com/en-in/products/devops
 
 ![azure devops signin](./images/image-1.jpg)
 
-* in the above image, if we click on github, it  red-direct __github__ account
+* in the above image, if we click on github, it  re-direct __github__ account
 
-* if click "signin" , it require personal __outlook__ email__
+* if we  click "signin" , it require personal __outlook__ email__ to create __azure DevOps account__
 
 ![azure devops signin](./images/image-2.jpg)
 
@@ -32,4 +32,5 @@
 ![azure devops signin](./images/image-5.jpg)
 
 * the above page is azure DevOps UI.
+* in the left hand menu, we will see, azure repos, azure pipeline, azure artifcat, azure test plans, we will going to learn in further class.
 

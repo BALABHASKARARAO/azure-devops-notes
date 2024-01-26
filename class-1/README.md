@@ -1,4 +1,4 @@
-### What is Azure DevOs?
+### What is Azure DevOps?
 
 * Implementing DevOps methodology with help of __azure DevOps services__ of __Azure repos__ for __git remote repository management__, __azure pipelines__ for CI/CD , __Azure artifact__ for __artifact's managemnt__ , __Azure test plans__ for __autimation testing__, and __Azure Boards__ for __project managment tool.__
 
