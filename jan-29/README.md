@@ -1,6 +1,7 @@
 ## azure devop yaml strcutre
 
 
+![azure-yaml-strcutre](./images/piplene-strcutre.svg)
 * https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/?view=azure-pipelines
 
 
@@ -49,7 +50,42 @@ strategy:
 pool:
   vmImage: $(imageName)
 
+steps:
+- script: 'dotnet --info'
+  displayName: 'Command Line Script'
+```
+
+* Extends
+  * Extends a pipeline using a template.
+
+```
+trigger:
+- main
+
+
+pool:
+  vmImage: "ubuntu-latest"
+
+
+extends:
+  template: CommonTemplate.yml
 
 - script: 'dotnet --info'
   displayName: 'Command Line Script'
+```
+
+
+* JOBS
+
+*  create differnet jobs in the pipeline
+
+```
+jobs:
+- job: MyJob
+  displayName: My First Job
+  continueOnError: true
+  workspace:
+    clean: outputs
+  steps:
+  - script: echo My first job
 ```
