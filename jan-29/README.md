@@ -33,6 +33,9 @@ steps:
 ```
 * https://learn.microsoft.com/en-us/azure/devops/pipelines/customize-pipeline?view=azure-devops
 
+trigger:
+- main
+
 strategy:
   matrix:
     linux:
@@ -41,8 +44,12 @@ strategy:
       imageName: "macOS-latest"
     windows:
       imageName: "windows-latest"
-  maxParallel: 3
+  maxParallel: 1
 
 pool:
   vmImage: $(imageName)
+
+
+- script: 'dotnet --info'
+  displayName: 'Command Line Script'
 ```
