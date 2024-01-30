@@ -5,6 +5,16 @@
 ## what is DevOps?
  * Devps of a fusion of Development Dev and operations Ops practices aimed at unifying software development and IT operations. The main goal is the shorten the Development life cycle and provide continous devilvery high software qaulity. DevOps is not a set of tools, it is cultture and mindset promotes most collebartion between development and operations team. This apporach allows more frequent  code release and faster  problem solving and a more agile  responce to market changes.
 
+### Azure DevOps
+Azure DevOps is a comprehensive set of development tools and services provided by Microsoft. It offers a complete end-to-end solution for managing the entire application lifecycle, from planning and coding to testing and deployment. Azure DevOps includes the following main components:
+
+Azure Boards: Enables agile planning, tracking work items, and managing backlogs.
+Azure Repos: Provides version control and Git repositories for source code management.
+Azure Pipelines: Offers robust continuous integration and continuous delivery (CI/CD) capabilities.
+Azure Test Plans: Facilitates manual and exploratory testing, test case management, and reporting.
+Azure Artifacts: Provides package management for storing and sharing artifacts like libraries and dependencies.
+With Azure DevOps, teams can collaborate effectively, automate workflows, and streamline the software development process.
+
 ### Differnce between DevOps and Azure DevOps Oand AWS DevOps and GCP DevOps?
 
 *  The main difference between all these, usage of __tools__ change to implement _DevOps methodology__. 
