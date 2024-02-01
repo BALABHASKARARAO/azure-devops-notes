@@ -18,6 +18,15 @@
 
 * we can simple run command __ dotnet new web__ . it will generate sample project.
 
+
+### manual commands to build dotnet core application
+
+```
+dotnet restore
+dotnet build -c Release
+dotnet test -c Release  --> to exexute unit test cases
+dotnet publish -c Release -o out  --> build applciation, copy all ___dll__ file into __out__ folder__
+```
 ### docker file for dotnet core application
 
 ```
