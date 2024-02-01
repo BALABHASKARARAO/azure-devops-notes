@@ -7,6 +7,13 @@
    
 ### progamming lanmgauges types
 
+* some progamming langues require __compiLation__ and __interpreation__
+* some lanagues requrie only __interpretation__.
+
+*  java --> require both __compilation__and __interpretation__.
+* nodejs, angular js, python --> require onky __interpeation__.
+* note: I am not discusing here, what is compilcation and interpreration.
+
 * in this total demonistration of as of now, showing into __docker image__,  virtaul machine take time. Later I will update in the same document for __virtual machine__ part. 
 
 * Developer writes the code , push to __ git remote repository__ ex: github/bitbucket/azure repo , etc...

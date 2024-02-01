@@ -50,7 +50,20 @@ EXPOSE 80
 # Set the entry point for the container
 ENTRYPOINT ["dotnet", "YourAppName.dll"]
 ```
+#### dotnet core application , configruation file
+
+* we have different environment, ex: dev, qa, uat, preprod , and prod
+* each envrionment has different configurations.
+* if you observe the applicartion  code , there two files, __appsettings.json__ and __appsettings.Development.json__
+
+* appsettings.json --> it is point to __prodcution__ envrionment. Bydefault, it consider it as __configuration file__
+
+* appsettings.Development.json  -->> this is for __Development__ envionment
+
+* similarly appsettings.Qa.json  --> point to QA environment
 
 ### starting docker container
 
-* docker run -e ASPNETCORE_ENVIRONMENT=Development your_image_name
+* docker run -d -p 80:80 image-name     --> point to appsetting.json 
+* docker run -e ASPNETCORE_ENVIRONMENT=Development your_image_name  --> point to ___development__ environment configuration file
+
