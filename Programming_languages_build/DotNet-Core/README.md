@@ -23,7 +23,7 @@
 ```
 # the code, is multi stage docker file
 # Use the official .NET Core SDK image as the base image
-FROM mcr.microsoft.com/dotnet/core/sdk:6.0 AS build-env
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -36,7 +36,7 @@ RUN dotnet restore
 RUN dotnet publish -c Release -o out
 
 # Create a runtime image
-FROM mcr.microsoft.com/dotnet/core/aspnet:6.0
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
 
 # Set the working directory inside the runtime container
 WORKDIR /app
@@ -50,3 +50,7 @@ EXPOSE 80
 # Set the entry point for the container
 ENTRYPOINT ["dotnet", "YourAppName.dll"]
 ```
+
+### starting docker container
+
+* docker run -e ASPNETCORE_ENVIRONMENT=Development your_image_name
